@@ -9,7 +9,7 @@ const login = require('./routes/login');
 
 console.log('This is our node app');
 
-//app.use(bodyParser.urlencoded({extended: false})); // This is for form post
+//app.use(bodyParser.urlencoded({extended: false})); // This is for form post or form submit
 app.use(bodyParser.json()); // application/json
 
 /*
